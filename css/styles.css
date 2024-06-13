@@ -648,6 +648,7 @@ background-color: #404bbf;
     align-items: center;
     border: none;
     cursor: pointer;
+    margin-left: 77px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-footer:hover,
@@ -1094,13 +1095,10 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
      margin-right: 120px;
  }
  .footer-container {
+    flex-wrap: nowrap;
     display: flex;
     align-items: baseline;
  }
-.footer-container{
-        margin: 0;
-        flex-wrap: nowrap;
-        }
  .footer {
     padding: 100px 0;
  }
@@ -1129,6 +1127,7 @@ width: 264px;
 
  .btn-footer{
      min-width: 165px;
+    
  }
 .footer-form {
     display: flex;
